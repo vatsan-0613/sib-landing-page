@@ -31,7 +31,7 @@ body{
 }
 
 #stats{
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 #products{
@@ -127,7 +127,8 @@ body{
     width: 75%;
     margin: 0 auto;
     border : 1px solid rgba(192, 192, 192, 1);
-    height: 80px;
+    /* height: 80px; */
+    transition : transform 1s ease-in-out;
 }
 
 .show-box-cont{
@@ -172,6 +173,74 @@ textarea{
 
 .lower-footer{
     border-top: 1px solid #E1E1E1;
+}
+
+#about-hero{
+    position: relative;
+}
+
+.about-hero-img{
+    width: 100%;
+}
+
+.about-hero-text{
+    background-color : #FFFFFF99;
+    opacity: 0.9;
+    border-radius: 5px;
+    padding : 2% 3%;
+}
+
+.about-hero-content{
+    position: absolute;
+    top: 35%;
+    left:15%;
+}
+
+.about-img-1{
+    border-radius: 8px;
+    width: 35%;
+}
+
+#vision{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#choose-us{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: #FBFBFB;
+    padding : 5% 0;
+
+}
+
+.choose-card{
+    background-color: #fff;
+}
+
+.choose-card-text{
+    color : #3D3D3D;
+}
+
+#dummy{
+    margin: 10% 0;
+}
+
+#products{
+    margin-bottom: 10%;
+}
+
+.product-desc{
+    width : 80%;
+    color : gray;
+}
+
+.read-more{
+    font-size: 1em;
+}
+
+.product-img{
+    border-radius: 10px;
 }
 
 @media (max-width: 992px) {

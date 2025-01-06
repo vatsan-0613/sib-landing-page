@@ -78,3 +78,8 @@ function slideTestimonialBackward(){
     // Apply translateX based on the current slide index
     productCarousel.style.transform = `translateX(-${testSlide * productWidth}px)`;
 }
+
+function showBox(id){
+    const asked = document.getElementById(`ask-${id}`)
+    asked.classList.toggle("visually-hidden")
+}
